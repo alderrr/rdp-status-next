@@ -28,7 +28,7 @@ export default function HomePage() {
           <p className="text-sm text-gray-500">Last updated: {new Date(lastUpdated!).toLocaleString()}</p>
         </>
       ) : (
-        <p>✅ No one is currently connected via RDP.</p>
+        <p>No one is currently connected via RDP.</p>
       )}
     </main>
   );
