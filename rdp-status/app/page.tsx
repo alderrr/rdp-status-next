@@ -21,7 +21,7 @@ export default function HomePage() {
 
   return (
     <main className="p-6 font-sans">
-      <h1 className="text-2xl font-bold mb-4">🖥️ RDP Session Monitor</h1>
+      <h1 className="text-2xl font-bold mb-4">🖥️ RDP Dev1 Session Monitor</h1>
       {client ? (
         <>
           <p>🔐 <strong>{client}</strong> is currently connected via RDP.</p>
